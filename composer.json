@@ -1,0 +1,38 @@
+{
+    "name": "damjangkae/cart",
+    "description": "E-Commerce Cart Package",
+    "type": "library",
+    "require": {
+        "php": ">=7.0",
+        "illuminate/support": "5.5.*",
+        "illuminate/session": "5.5.*",
+        "illuminate/events": "5.5.*",
+        "illuminate/database": "5.5.*"
+    },
+    "require-dev": {
+        "fzaninotto/faker": "~1.4",
+        "orchestra/testbench": "~3.0",
+        "phpunit/phpunit": "6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Damjangkae\\Cart\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Damjangkae\\Cart\\Test\\": "tests"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sirawit Praditkul",
+            "email": "sirait.pra@gmail.com"
+        }
+    ],
+    "scripts": {
+        "test": "./vendor/bin/phpunit"
+    },
+    "minimum-stability": "dev"
+}
